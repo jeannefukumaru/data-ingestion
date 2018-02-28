@@ -2,7 +2,10 @@
 
 ### what happens after getting data  
 - checking and validating data
-- data exploration  
+- data exploration
+- retraining/updating model
+- publish 
+- repeat 
 
 Several sources gave good pointers on opiniated data exploration (hint:freestyle is not an option). 
 
