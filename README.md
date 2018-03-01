@@ -1,4 +1,4 @@
-# data-ingestion pipeline examples
+# pipeline examples
 
 ### what happens after getting data  
 - checking and validating data
@@ -7,7 +7,7 @@
 - publish 
 - repeat 
 
-Several sources gave good pointers on opiniated data exploration (hint:freestyle is not an option). 
+some sources on opiniated data exploration (hint:freestyle is not an option). 
 
 [1] R4DS by Hadley Wickham  
 [2] Elements of Data Style by Jeff Leek  

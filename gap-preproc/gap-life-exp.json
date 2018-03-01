@@ -1,0 +1,21 @@
+{
+  "pipeline": {
+    "name": "life-exp"
+  },
+  "transform": {
+    "image": "jeannefukumaru/gapminder:01",
+    "cmd": [
+	"Rscript",
+	"gap-life-exp.R"
+    ]
+  },
+  "parallelism_spec": {
+    "constant": "1"
+  },
+  "input": {
+    "atom": {
+      "repo": "gap",
+      "glob": "/"
+    }
+  }
+}
