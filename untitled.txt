@@ -1,5 +1,0 @@
-library(tidyverse)
-
-# load csv file from local directory
-df <- read.csv('/pfs/gap/gap.csv')
-
