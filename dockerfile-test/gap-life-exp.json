@@ -3,7 +3,7 @@
     "name": "life-exp"
   },
   "transform": {
-    "image": "jeannefukumaru/gapminder:latest",
+    "image": "gap-test:latest",
     "cmd": [
 	"Rscript",
 	"gap-life-exp.R"

@@ -3,7 +3,7 @@ library(tidyverse)
 # load csv file from local directory
 df <- read.csv('/pfs/gap/gap.csv')
 
-gap_life_exp <- gapminder %>%
+gap_life_exp <- df %>%
   group_by(country, continent) %>% 
   summarise(life_exp = max(lifeExp)) %>% 
   ungroup()

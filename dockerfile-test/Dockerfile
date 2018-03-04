@@ -1,5 +1,4 @@
-FROM r-base
-ADD install_packages.R /tmp/install_packages.R
-RUN Rscript /tmp/install_packages.R
-ADD gap-life-exp.R /gap-life-exp.R
-RUN Rscript gap-life-exp.R/gap-life-exp.R
+FROM dceoy/r-tidyverse
+ADD gap-test.R /gap-test.R
+RUN Rscript /gap-test.R
+
