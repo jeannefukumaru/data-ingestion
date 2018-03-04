@@ -1,4 +1,4 @@
-# examples of data analysis workflows made reproducible with Pachyderm 
+# examples of data analysis workflows made reproducible with Pachyderm (under dev)
 
 sources on opiniated data exploration (because freestyle is not an option). 
 
