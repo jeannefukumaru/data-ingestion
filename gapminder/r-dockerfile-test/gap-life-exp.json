@@ -1,0 +1,21 @@
+{
+  "pipeline": {
+    "name": "life-exp"
+  },
+  "transform": {
+    "image": "gap-test:latest",
+    "cmd": [
+	"Rscript",
+	"gap-test.R"
+    ]
+  },
+  "parallelism_spec": {
+    "constant": "1"
+  },
+  "input": {
+    "atom": {
+      "repo": "gap",
+      "glob": "/"
+    }
+  }
+}
