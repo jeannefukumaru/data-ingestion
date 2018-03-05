@@ -6,7 +6,7 @@
     "image": "gap-test:latest",
     "cmd": [
 	"Rscript",
-	"gap-life-exp.R"
+	"gap-test.R"
     ]
   },
   "parallelism_spec": {
